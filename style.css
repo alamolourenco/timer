@@ -1,0 +1,63 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Mono:wght@100&display=swap');
+
+body {
+  background-color: rgba(0, 0, 0, 0.836);
+  color: black;
+}
+#container {
+  background-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 500px;
+  height: 200px;
+  margin-top: 200px;
+}
+#timer {
+  /* font-family: "Dancing Script", cursive; */
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-size: 64pt;
+  background-color: black grey white;
+  /* border-style: solid;
+  border-radius: 10px;
+  border-width: 2px; */
+  padding: 10px;
+  width: 400px;
+  text-align: center;
+}
+#buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.button {
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  font-family: "Dancing Script", cursive;
+  font-size: 32pt;
+  color: white;
+  width: 128px;
+}
+.button:hover {
+  transform: scale(1.1);
+  transition: all 0.9s;
+}
+#start {
+  background-color: green;
+}
+#pause {
+  background-color: red;
+}
+#reset {
+  background-color: blue;
+}
